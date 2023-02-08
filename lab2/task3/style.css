@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flexbox;
+    width: 15%;
+    height: 22px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 6px;
+    float: left;
+}
+.links{
+    float: left;
+    color: blue;
+}
+.top{
+    display: block;
+    
+}
+.top-left{
+    display: inline-block;
+    
+}
+.mid{
+    background-image: ;
+}
