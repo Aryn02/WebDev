@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     align-items: center;
@@ -18,7 +18,6 @@ body{
     color: aquamarine;
     padding-left: 110px;
     padding-top: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 section{
@@ -42,14 +41,13 @@ section{
     align-items: center;
     padding-top: 25px;
     height: 50px;
-    background-color: blue;
+    background-color: white;
     width: 80%;
 }
 .ToDo{
     display: flex;
     color: black;
     font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .searchcontent{
     display: flex;
@@ -92,42 +90,66 @@ input{
 }
 .tasklist{
     display: flex;
-    align-items: center;
-    box-sizing: content-box;
-    height: 50px;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 300px;
     background-color: white;
     width: 52%;
     border: 1.5px solid rgb(200, 200, 200);
     border-radius: 4px;
 }
-ul{
-    color: blue;
-    background-color: blue;
-    height: 100%;
-    width: 100%;
-    list-style-type:none;
-}
-li{
-    display: flex;
-    flex-direction: row;
-    background-color: aquamarine;
-    padding: auto;
-    margin: 10px;
-    display: 10px;
-    align-content: space-between;
-}
-.bin{
-    margin: auto;
-    padding: auto;
-    width: 73px;
-    height: 73px;
-}
 
 .task{
-    /* color: blue;
-    background-color: blue;
-    height: 15px;
-    width: 100%;
-} */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 50px;
+    width: 99.8%;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 2px;
+}
+input[type='checkbox']{
+    margin-top: 19px;
+    margin-left: 19px;
+    scale: 1.4;
+}
+.check{
+    height: 50px;
+    width: 5%;
+    margin: 0px 1px;
+    padding: 0px 1px;
+}
+.content{
+    height: 30px;
+    width: 75%;
+    margin-top: 8px;
+    margin-left: 19px;
+    padding: 0px 10px;
+    background-color: white;
+    color: black;
+    align-items: baseline;
+}
 
+.delete{
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    color: black;
+}
 
+.delete-button{
+    border: none;
+    background-color: Red;
+    color: black;
+    width: 75px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
