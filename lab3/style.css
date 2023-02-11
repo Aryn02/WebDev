@@ -42,7 +42,7 @@ section{
     align-items: center;
     padding-top: 25px;
     height: 50px;
-    background-color: white;
+    background-color: blue;
     width: 80%;
 }
 .ToDo{
@@ -76,7 +76,7 @@ input{
     font-family: Segoe UI;
     font-size: 15px; 
 }
-button{
+#addbutton{
     border: none;
     background-color: blue;
     color: white;
@@ -91,8 +91,43 @@ button{
     font-size: large;
 }
 .tasklist{
-    
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    height: 50px;
+    background-color: white;
+    width: 52%;
+    border: 1.5px solid rgb(200, 200, 200);
+    border-radius: 4px;
+}
+ul{
+    color: blue;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    list-style-type:none;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    padding: auto;
+    margin: 10px;
+    display: 10px;
+    align-content: space-between;
+}
+.bin{
+    margin: auto;
+    padding: auto;
+    width: 73px;
+    height: 73px;
 }
 
+.task{
+    /* color: blue;
+    background-color: blue;
+    height: 15px;
+    width: 100%;
+} */
 
 
