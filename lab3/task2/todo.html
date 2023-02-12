@@ -16,16 +16,16 @@
     </header>
 
     <section>
-        <div class="search">
+        <div id="search">
             <div class="ToDoList">
                 <div class="ToDo">
                     ToDo List
                 </div>
                 
             </div>
-            <div class="searchcontent">
-                <input class="searchbar" type="text" placeholder="New Task">
-                <button id="addbutton">Add</button>
+            <div id="searchcontent">
+                <input id="searchbar" type="text" placeholder="New Task">
+                <button id="addbutton" type="submit" onclick="addTask()">Add</button>
             </div>
         </div>
 
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="content">
-                    <label style="margin-top: 40px">Content</label> 
+                    <label style="margin-top: 40px">Content</label>
                 </div>
 
                 <div class="delete">
