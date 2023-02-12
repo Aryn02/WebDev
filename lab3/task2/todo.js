@@ -11,7 +11,6 @@ function addTask() {
         return;
     }else{
         
-
         const task_el = document.createElement("div");
         task_el.classList.add("task");
 
@@ -39,6 +38,7 @@ function addTask() {
         const delete_button = document.createElement("button");
         delete_button.classList.add("delete-button")
         delete_button.innerHTML = "Delete";
+        delete_button.setAttribute('onclick', 'delete_(this)')
 
         delete_div.appendChild(delete_button);
         task_el.appendChild(delete_div);
@@ -48,4 +48,9 @@ function addTask() {
         input.value = "";
     }
 }
-
+function delete_(elem) {
+    elem.parentElement.parentElement.remove();
+}
+function done(elem) {
+    elem.parentElement.nextElementSibling. setAttribute('text-decoration', 'line-through');
+}
