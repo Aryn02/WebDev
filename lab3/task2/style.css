@@ -76,7 +76,7 @@ input{
 }
 #addbutton{
     border: none;
-    background-color: blue;
+    background-color: #3b5998;
     color: white;
     margin: auto;
     width: 85px;
@@ -144,7 +144,7 @@ input[type='checkbox']{
 
 .delete-button{
     border: none;
-    background-color: Red;
+    background-color: rgb(220, 46, 46);
     color: black;
     width: 75px;
     height: 40px;
