@@ -50,10 +50,16 @@ function addTask() {
         input.value = "";
     }
 }
+
 function delete_(elem) {
     elem.parentElement.parentElement.remove();
 }
+
 function done(elem) {
+
+    if (elem.checked == true) {
         elem.parentElement.nextElementSibling.firstElementChild.style.textDecoration =  "line-through";
-    
+    }else{
+        elem.parentElement.nextElementSibling.firstElementChild.style.textDecoration =  "none";
+    }
 }
