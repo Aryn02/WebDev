@@ -21,14 +21,16 @@ function addTask() {
         const task_checkbox_el = document.createElement("input");
         task_checkbox_el.classList.add("chkbox");
         task_checkbox_el.setAttribute('type','checkbox');
-
+        task_checkbox_el.setAttribute('onclick', 'done(this)');
         task_checkdiv_el.appendChild(task_checkbox_el);
         task_el.appendChild(task_checkdiv_el)
 
         //content
         const task_content_el = document.createElement("div");
         task_content_el.classList.add("content");
-        task_content_el.innerText = task;
+        const task_content_paragraph = document.createElement("p")
+        task_content_paragraph.innerText = task;
+        task_content_el.appendChild(task_content_paragraph);
         task_el.appendChild(task_content_el);
 
         //delete button
@@ -52,5 +54,6 @@ function delete_(elem) {
     elem.parentElement.parentElement.remove();
 }
 function done(elem) {
-    elem.parentElement.nextElementSibling. setAttribute('text-decoration', 'line-through');
+        elem.parentElement.nextElementSibling.firstElementChild.style.textDecoration =  "line-through";
+    
 }
