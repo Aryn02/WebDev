@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //What's the result of OR?
+        alert( null || 2 || undefined );//2
+
+        //What's the result of OR'ed alerts?
+        alert( alert(1) || 2 || alert(3) );//There will be no 3, because the evaluation does not reach alert(3).
+
+        //What is the result of AND?
+        alert(1 && null && 2);//The answer: null, because it’s the first falsy value from the list.
+
+        //What is the result of AND'ed alerts?
+        alert( alert(1) && alert(2) );
+        //The answer: 1, and then undefined.
+
+        //The result of OR AND OR
+        alert( null || 2 && 3 || 4 );//The answer: 3.
+
+        //Check the range between
+        //if (age >= 14 && age <= 90);
+
+        //Check the range outside
+        //The first variant:
+        //if (!(age >= 14 && age <= 90));
+        //The second variant:
+        //if (age < 14 || age > 90);
+
+        //A question about "if"
+        //The answer: the first and the third will execute.
+        // Runs.
+        // The result of -1 || 0 = -1, truthy
+        if (-1 || 0) alert( 'first' );
+        // Doesn't run
+        // -1 && 0 = 0, falsy
+        if (-1 && 0) alert( 'second' );
+        // Executes
+        // Operator && has a higher precedence than ||
+        // so -1 && 1 executes first, giving us the chain:
+        // null || -1 && 1  ->  null || 1  ->  1
+        if (null || -1 && 1) alert( 'third' );
+        
+        //Check the login
+        let userName = prompt("Who's there?", '');
+        if (userName === 'Admin') {
+        let pass = prompt('Password?', '');
+        if (pass === 'TheMaster') {
+            alert( 'Welcome!' );
+        } else if (pass === '' || pass === null) {
+            alert( 'Canceled' );
+        } else {
+            alert( 'Wrong password' );
+        }
+        } else if (userName === '' || userName === null) {
+        alert( 'Canceled' );
+        } else {
+        alert( "I don't know you" );
+        }
+    </script>
+</body>
+</html>
