@@ -10,13 +10,17 @@
   </h3>
 
    <img [src]="product.image" alt="">
-  <p *ngIf="product.description">Description: {{ product.description }}</p>
+<!--  <p *ngIf="product.description">Description: {{ product.description }}</p>-->
+
+  <h4>{{ product.price | currency}}</h4>
 
   <button type="button" (click)="share()">Share</button>
 
-  <app-product-alerts [product]="product" (notify)="onNotify()">
-  </app-product-alerts>
+<!--  <app-product-alerts [product]="product" (notify)="onNotify()">-->
+<!--  </app-product-alerts>-->
+  <hr>
 </div>
+
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

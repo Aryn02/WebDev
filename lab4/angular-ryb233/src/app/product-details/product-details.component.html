@@ -2,7 +2,12 @@
 
 <div *ngIf="product">
   <h3>{{ product.name }}</h3>
-  <h4>{{ product.price | currency }}</h4>
-  <p>{{ product.description }}</p>
+  <img [src]="product.image" alt="">
+  <h4>{{ product.price | currency}}</h4>
+<!--  <p>{{ product.description }}</p>-->
+  <p *ngIf="product.description"><b>Описание</b>: {{ product.description }}</p>
   <button type="button" (click)="addToCart(product)">Buy</button>
+  <div id="kaspi">
+  <a [href]="product.link">Open product in Kaspi.kz</a>
+  </div>
 </div>
