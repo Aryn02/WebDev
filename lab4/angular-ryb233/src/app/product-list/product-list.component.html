@@ -12,9 +12,10 @@
    <img [src]="product.image" alt="">
 <!--  <p *ngIf="product.description">Description: {{ product.description }}</p>-->
 
-  <h4>{{ product.price | currency}}</h4>
+  <h4>{{ product.price | currency: 'KZT '}}</h4>
 
-  <button type="button" (click)="share()">Share</button>
+<!--  <button type="button" (click)="share()">Share</button>-->
+  <button type="button"><a id="telegram" href="https://telegram.me/share/url?url={{product.link}}&text=Смотри-какой-классный-товар-я-нашел!">Share</a></button>
 
 <!--  <app-product-alerts [product]="product" (notify)="onNotify()">-->
 <!--  </app-product-alerts>-->
