@@ -14,7 +14,7 @@ export interface Product {
 export const products = [
   {
     like:2,
-    categid: 1,
+    categid: 2,
     id: 1,
     name: 'Кондиционер TCL Elite TAC-07CHSA/XA41',
     price: 89990,
@@ -121,125 +121,291 @@ export const products = [
         'CjwKCAiAl9efBhAkEiwA4TorivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
-    like:2,
-    categid: 2,
-    id: 6,
-    name: 'Кондиционер Midea MSAG-12HRN1',
-    price: 179990 ,
-    description: 'Кондиционер MIDEA MSAG-12HRN1 технологичный, функциональный и надёжный, с приемлемой ценой.' +
-        ' Отличается инновационным дизайном. Округлые линии корпуса и спрятанный дисплей делают сплит систему ' +
-        'частью помещения. Оснащён компрессором, который работает в режиме включения и отключения. Система очистки' +
-        ' воздуха кондиционера снабжена высокоэффективным ионизатором, который продуцирует миллионы отрицательно ' +
-        'заряженных ионов, нейтрализующие все вредные элементы, присутствующие в Вашем доме. Отрицательно заряженные ' +
-        'ионы притягивают к себе частицы пыли, бактерии, споры плесени и вирусы, нейтрализуют их, поддерживая чистоту' +
-        ' и свежесть воздуха в помещении. В сравнении со стандартным фильтром фильтр высокой степени очистки' +
-        ' задерживает на 50% больше пыли и на 80% больше пыльцы',
+    like: 3,
+    categid: 1,
+    id:6,
+    name: 'Смартфон Apple iPhone 13 128Gb черный',
+    price: 373663,
+    description: 'технология NFC: Да\n' +
+        'цвет: черный\n' +
+        'тип экрана: OLED, Super Retina XDR\n' +
+        'диагональ: 6.1 дюйм\n' +
+        'размер оперативной памяти: 4 ГБ\n' +
+        'процессор: 6-ядерный Apple A15 Bionic\n' +
+        'объем встроенной памяти: 128 ГБ\n' +
+        'емкость аккумулятора: 3095 мАч',
     image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/' +
-        'h0b/h93/34379015258142/midea-msag-12hrn1-belyj-101277889-1-Container.jpg',
+        'h49/hc0/46392662523934/apple-iphone-13-128gb-cernyj-102298404-1-Container.jpg',
     rating: 5,
-    link: 'https://kaspi.kz/shop/p/midea-msag-12hrn1-montazhnyi-komplekt-101277889/' +
-        '?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_' +
-        'kaspi_brand_desktop&gclid=CjwKCAiAl9efBhAkEiwA4TorivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_' +
-        'EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750' +
+        '000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_k' +
+        'aspi_brand_desktop&gclid=CjwKCAiAjPyfBhBMEiwAB2CCIk9mNOxKQ1IEWsWuN4IRCuVyHb' +
+        'oOKLXVtzjz_SSZIjIHaGR0k8ZYBhoC_SMQAvD_BwE#!/item',
   },
   {
-    like:2,
-    categid: 2,
+    like: 2,
+    categid: 1,
     id: 7,
-    name: 'Телевизор Samsung UE43T5300AUXCE 109',
-    price: 198887,
-    description: 'Смотрите HDR контент с улучшенной четкостью и точнейшей цветопередачей. ' +
-        'Телевизор Samsung UHD обеспечивает более точную передачу деталей в самых ярких ' +
-        'и темных сценах. Технология Ultra Clean View анализирует исходный контент с помощью ' +
-        'новейшего алгоритма и формирует более качественные изображения с минимальным искажением.' +
-        ' Наслаждайтесь четкостью изображения. Смотрите любимые программы в естественных цветах,' +
-        ' которые воспроизводят детали также четко, как в реальности. Получите более красочное впечатление' +
-        'от просмотра. Почувствуйте контраст и цвета оттенков. Технология Micro Dimming Pro делит экран на' +
-        ' фрагменты, анализирует каждый из них и обеспечивает более глубокий черный цвет и более чистый ' +
-        'белый цвет. Почувствуйте контраст и цвета оттенков. Технология Micro Dimming Pro делит экран на ' +
-        'фрагменты, анализирует каждый из них и обеспечивает более глубокий черный цвет и более чистый ' +
-        'белый цвет. Приложение SmartThings app оснащено функциями Универсального гида, Пульта ДУ и Панели ' +
-        'управления (Dashboard).',
-    image: 'https://resources.cdn-kaspi.kz' +
-        '/shop/medias/sys_master/images/images/' +
-        'hdf/h18/49319748468766/samsung-ue43t5300a' +
-        'u-chernyi-100182013-1.jpg',
-    rating: 5,
-    link: 'https://kaspi.kz/shop/p/samsung-ue43t5300auxce-109-sm' +
-        '-chernyi-100182013/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign' +
-        '=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAl9efBhAkEiwA4TorivS1uoW' +
-        'lz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
+    name: 'Смартфон Apple iPhone 11 128Gb Slim Box черный',
+    price: 293200,
+    description: 'технология NFC: Да\n' +
+        'цвет: черный\n' +
+        'тип экрана: сенсорный мультитач цветной IPS, Liquid Retina HD\n' +
+        'диагональ: 6.1 дюйм\n' +
+        'размер оперативной памяти: 4 ГБ\n' +
+        'процессор: 6-ядерный Apple A13 Bionic\n' +
+        'объем встроенной памяти: 128 ГБ\n' +
+        'емкость аккумулятора: 3110 мАч',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h76/hcc/31489168277534/apple-iphone-11-128gb-slim-box-cernyj-100692388-2-Container.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-chernyi-10069' +
+        '2388/?c=750000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_go' +
+        'ogle_search_kaspi_brand_desktop&gclid=CjwKCAiAjPyfBhBMEiwAB2CCIk9mNOxKQ1IE' +
+        'WsWuN4IRCuVyHboOKLXVtzjz_SSZIjIHaGR0k8ZYBhoC_SMQAvD_BwE#!/item',
   },
   {
-    like:2,
-    categid: 2,
+    like: 2,
+    categid: 1,
     id: 8,
-    name: 'Телевизор LG 43LM5772PLA ',
-    price: 183658,
-    description: 'Телевизоры LG HD позволяют наслаждаться более качественным ' +
-        'изображением благодаря высокому разрешению и ярким цветам. Телевизо' +
-        'ры LG HD созданы для того, чтобы удивлять вас отличным качеством из' +
-        'ображения — в несколько раз лучше, чем SD. Благодаря технологиям Dy' +
-        'namic Color и Active HDR весь ваш любимый контент будет более реалис' +
-        'тичным и потрясающим. Передовой процессор обработки изображений корр' +
-        'ектирует цвета, делая изображение более богатым и естественным. Насла' +
-        'ждайтесь красотой натуральных цветов природы на экране вашего телевизо' +
-        'ра. Телевизор LG HD обеспечивает точность деталей и яркие цвета благода' +
-        'ря технологии Active HDR. Наслаждайтесь любимыми фильмами в оригинально' +
-        'м качестве благодаря нескольким HDR-форматам, включая HDR10 и HLG. Тонкая р' +
-        'амка и элегантный корпус телевизора гармонично впишутся в ваш интерьер, уси' +
-        'лив приятные впечатления от просмотра.',
-    image: 'https://resources.cdn-kaspi.kz/shop/medias/' +
-        'sys_master/images/images/he5/he4/49320430370846/' +
-        'lg-43lm5772pla-108-sm-cernyj-101293496-1-Container.jpg',
+    name: 'Смартфон Apple iPhone 14 Pro 256Gb фиолетовый',
+    price: 633710,
+    description: 'технология NFC: Да\n' +
+        'цвет: фиолетовый\n' +
+        'тип экрана: OLED, Super Retina XDR display с возможностью постоянной работы\n' +
+        'диагональ: 6.1 дюйм\n' +
+        'размер оперативной памяти: 6 ГБ\n' +
+        'процессор: 6-ядерный Apple A16 Bionic\n' +
+        'объем встроенной памяти: 256 ГБ\n' +
+        'емкость аккумулятора: 3125 мАч',
+    image: 'https://resources.cdn-kaspi.kz/shop/medi' +
+        'as/sys_master/images/images/h4d/h62/62948396728350/apple-iphone-14-pro-128gb-fioletovyj-106363319-1.jpg',
     rating: 5,
-    link: 'https://kaspi.kz/shop/p/lg-43lm5772pla-109-s' +
-        'm-chernyi-101293496/?c=750000000&utm_source=google' +
-        '&utm_medium=cpc&utm_campaign=shop_google_search_kas' +
-        'pi_brand_desktop&gclid=CjwKCAiAl9efBhAkEiwA4TorivS' +
-        '1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-14-pro-256gb-fioletovyi-106363319/?c=750000000#!/item',
   },
   {
-    like:2,
-    categid: 2,
+    like: 2,
+    categid: 1,
     id: 9,
-    name: 'Телевизор LG 50UQ76003LD ',
-    price: 267788,
-    description: 'тип: LED-телевизор\n' +
-        'диагональ: 50 дюйм\n' +
-        'разрешение: 3840x2160\n' +
-        'поддержка HD: 4K UHD\n' +
-        'технология Smart TV: Да\n' +
-        'wi-Fi: Да\n' +
-        'входы: HDMI, ,USB',
-    image: 'https://resources.cdn-kasp' +
-        'i.kz/shop/medias/sys_master/images/images/h0a/h01/51110128320542/lg-50uq76003ld-chernyi-105054596-1.jpg',
-    rating: 5,
-    link: 'https://kaspi.kz/shop/p/lg-50uq76003ld-127-sm-chernyi-105054596/?c=750000000&utm_source=google&' +
-        'utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&gclid=CjwKCAiAl9efBhAkEiwA4T' +
-        'orivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
+    name: 'Смартфон Apple iPhone 13 128Gb белый',
+    price: 373780 ,
+    description: 'технология NFC: Да\n' +
+        'цвет: белый\n' +
+        'тип экрана: OLED, Super Retina XDR\n' +
+        'диагональ: 6.1 дюйм\n' +
+        'размер оперативной памяти: 4 ГБ\n' +
+        'процессор: 6-ядерный Apple A15 Bionic\n' +
+        'объем встроенной памяти: 128 ГБ\n' +
+        'емкость аккумулятора: 3095 мАч',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/imag' +
+        'es/images/hfc/h49/46392664621086/apple-iphone-13-128gb-belyj-102298420-3-Container.jpg',
+    rating: 3,
+    link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-belyi-102298420/?c=750000000#!/item',
   },
   {
-    like:2,
-    categid: 2,
-    id: 10,
-    name: 'Телевизор DAUSCHER LD55AU7100',
-    price: 239990,
-    description: 'тип: LED-телевизор\n' +
-        'диагональ: 55 дюйм\n' +
-        'разрешение: 3840x2160\n' +
-        'поддержка HD: 4K UHD\n' +
-        'технология Smart TV: Да\n' +
-        'wi-Fi: Да\n' +
-        'входы: аудио, ,оптический, ,VGA',
-    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_mas' +
-        'ter/images/images/h3c/hfa/66314652581918/dauscher-ld55au7100-chernyi-107598351-1.jpg',
-    rating: 5,
-    link: 'https://kaspi.kz/shop/p/dauscher-ld55au7100-140-sm-chernyi-107598351/?c=7' +
-        '50000000&utm_source=google&utm_medium=cpc&utm_campaign=shop_google_search_kaspi_brand_desktop&' +
-        'gclid=CjwKCAiAl9efBhAkEiwA4TorivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
+    like: 5,
+    categid: 1,
+    id:10,
+    name: 'Смартфон Apple iPhone 14 128Gb голубой',
+    price: 420459,
+    description: 'технология NFC: Да\n' +
+        'цвет: голубой\n' +
+        'тип экрана: OLED, Super Retina XDR display\n' +
+        'диагональ: 6.1 дюйм\n' +
+        'размер оперативной памяти: 6 ГБ\n' +
+        'процессор: 6-ядерный Apple A15 Bionic\n' +
+        'объем встроенной памяти: 128 ГБ\n' +
+        'емкость аккумулятора: 3279 мАч',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8b/h' +
+        '41/63073057177630/apple-iphone-14-128gb-goluboj-106363150-1.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/apple-iphone-14-128gb-goluboi-106363150/?c=750000000#!/item',
   },
+  {
+    like: 6,
+    categid: 3,
+    id: 11,
+    name: 'Ноутбук Lenovo IdeaPad 3 15ITL6 82H8005GRK серебристый',
+    price: 169990,
+    description: 'диагональ экрана: 15.6 дюйм\n' +
+        'процессор: Intel Pentium Gold 7505\n' +
+        'видеокарта: Intel UHD Graphics\n' +
+        'размер оперативной памяти: 8 ГБ\n' +
+        'тип жесткого диска: SSD\n' +
+        'общий объем накопителей: 256 ГБ',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/' +
+        'images/h8f/h3a/66993674190878/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705-1.jpg',
+    rating: 3,
+    link: 'https://kaspi.kz/shop/p/lenovo-ideapad-3-15itl6-82h8005grk-serebristyi-108090705/?c=750000000#!/item',
+  },
+  {
+    like: 7,
+    categid: 3,
+    id: 12,
+    name: 'Ноутбук ASUS X515EA-BQ3144W I385SUW1 90NB0TY1-M02ZL0 темно-серый',
+    price: 246990,
+    description: 'диагональ экрана: 15.6 дюйм\n' +
+        'процессор: Intel Core i3 1115G4\n' +
+        'видеокарта: Intel UHD Graphics\n' +
+        'размер оперативной памяти: 8 ГБ\n' +
+        'тип жесткого диска: SSD\n' +
+        'общий объем накопителей: 512 ГБ',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb8/' +
+        'hbd/65953424277534/asus-x515ea-bq3144w-i385suw1-90nb0ty1-m02zl0-temno-seryi-107650928-1.jpg',
+    rating: 3,
+    link: 'https://kaspi.kz/shop/p/asus-x515ea-bq3144w-i385suw1-90nb0ty1-m02zl0-temno-seryi-107650928/?c=750000000#!/item',
+  },
+
+  {
+    like: 3,
+    categid: 3,
+    id:13,
+    name: 'Ноутбук Acer Nitro 5 AN515-57 NH.QEKER.004 черный',
+    price:389980,
+    description: 'диагональ экрана: 15.6 дюйм\n' +
+        'процессор: Intel Core i5 11400H\n' +
+        'видеокарта: NVIDIA GeForce GTX 1650\n' +
+        'размер оперативной памяти: 16 ГБ\n' +
+        'тип жесткого диска: SSD\n' +
+        'общий объем накопителей: 512 ГБ',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_mast' +
+        'er/images/images/h2e/hc4/67236399185950/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028-1.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/acer-nitro-5-an515-57-nh-qeker-004-chernyi-108194028/?c=750000000#!/item',
+  },
+  {
+    like: 3,
+    categid: 3,
+    id:14,
+    name: 'Ноутбук Apple MacBook Air 13 MGN63 серый',
+    price: 477999 ,
+    description: 'диагональ экрана: 13.3 дюйм\n' +
+        'процессор: Apple M1\n' +
+        'видеокарта: Apple M1 7 core\n' +
+        'размер оперативной памяти: 8 ГБ\n' +
+        'тип жесткого диска: SSD\n' +
+        'общий объем накопителей: 256 ГБ',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h65/h0f' +
+        '/33125684084766/apple-macbook-air-2020-13-3-mgn63-seryj-100797845-1-Container.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63-seryi-100797845/?c=750000000#!/item',
+  },
+  {
+    like: 8,
+    categid: 3,
+    id:15,
+    name: 'Ноутбук ASUS TUF Gaming F15 90NR0704-M00D00 черный',
+    price:529990,
+    description: 'диагональ экрана: 15.6 дюйм\n' +
+        'процессор: Intel Core i5 11400H\n' +
+        'видеокарта: NVIDIA GeForce RTX 3050 Ti\n' +
+        'размер оперативной памяти: 16 ГБ\n' +
+        'тип жесткого диска: SSD\n' +
+        'общий объем накопителей: 512 ГБ',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/ima' +
+        'ges/images/hb0/h69/64606666129438/asus-tuf-gaming-f15-90nr0704-m00d00-chernyi-107230798-1.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/asus-tuf-gaming-f15-90nr0704-m00d00-chernyi-107230798/?c=750000000#!/item',
+  },
+  {
+    like: 4,
+    categid: 4,
+    id:16,
+    name: 'Стул N-12, 81x50x25 см, белый',
+    price: 7500,
+    description: 'тип: стул\n' +
+        'материал: пластик\n' +
+        'обивка: отсутствует\n' +
+        'жесткость сиденья: высокая\n' +
+        'высота, см: 81\n' +
+        'ширина, см: 50\n' +
+        'глубина, см: 25\n' +
+        'цвет: белый\n' +
+        'страна: Китай',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h07' +
+        '/hdc/32360448491550/stul-klassicheskii-barneo-woodmold-n-12-81x50x25-belyi-100189414-1.jpg',
+    rating: 3,
+    link: 'https://kaspi.kz/shop/p/stul-n-12-81x50x25-sm-belyi-100189414/?c=750000000#!/item',
+  },
+  {
+    like: 5,
+    categid: 4,
+    id:17,
+    name: 'Табурет ЗМИ Пенек легкий, 47x46x46 см, серый',
+    price:3415,
+    description: 'тип: табурет\n' +
+        'материал: металл\n' +
+        'обивка: экокожа\n' +
+        'жесткость сиденья: средняя\n' +
+        'высота, см: 47\n' +
+        'ширина, см: 46\n' +
+        'глубина, см: 46\n' +
+        'цвет: серый\n' +
+        'страна: Россия',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys' +
+        '_master/images/images/h64/h2b/47387906899998/zmi-penek-legkii-184-seryi-102981664-2.jpg',
+    rating: 5,
+    link: 'https://kaspi.kz/shop/p/taburet-zmi-penek-legkii-47x46x46-sm-seryi-102981664/?c=750000000#!/item',
+  },
+
+  {
+    like: 5,
+    categid: 4,
+    id:18,
+    name: 'Табурет Nika Эконом ТЭ-2, 46.5x32x32 см, слоновая кость',
+    price:3240,
+    description: 'тип: табурет\n' +
+        'материал: металл\n' +
+        'обивка: искусственная кожа\n' +
+        'жесткость сиденья: средняя\n' +
+        'высота, см: 46.5\n' +
+        'ширина, см: 32\n' +
+        'глубина, см: 32\n' +
+        'цвет: бежевый\n' +
+        'страна: Россия',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master' +
+        '/images/images/h77/h0f/31820175343646/nika-ekonom-te-2-metall-46-5-smx32-smx32-sm-bezhevyi-16700785-1.jpg',
+    rating: 4,
+    link: 'https://kaspi.kz/shop/p/taburet-nika-ekonom-te-2-46-5x32x32-sm-slonovaja-kost--16700785/?c=750000000#!/item',
+  },
+  {
+    like: 9,
+    categid: 4,
+    id:19,
+    name: 'Комод Комод Альтернатива 30x47.5x94 см, пластик, Колорит М7925',
+    price:16999,
+    description: 'тип: напольный\n' +
+        'число ящиков: 4\n' +
+        'материал: пластик\n' +
+        'ширина, см: 30\n' +
+        'высота, см: 94\n' +
+        'цвет: черный',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/s' +
+        'ys_master/images/images/h70/h1d/46777662177310/alternativa-kolorit-m7925-cernyj-102693205-1.jpg',
+    rating: 3,
+    link: 'https://kaspi.kz/shop/p/komod-al-ternativa-30x47-5x94-sm-plastik-kolorit-m7925--102693205/?c=750000000#!/item',
+  },
+  {
+    like: 1,
+    categid: 4,
+    id:20,
+    name: 'Игровое Defender Master, черный, красный',
+    price: 66990,
+    description: 'назначение: игровое кресло\n' +
+        'тип базы: крестовина с колесами\n' +
+        'материал обивки: искусственная кожа\n' +
+        'регулировка: высота сиденья, ,угол наклона\n' +
+        'цвет: черный, ,красный\n' +
+        'страна: Россия',
+    image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_ma' +
+        'ster/images/images/h9c/hde/34384277274654/igrovoe-kreslo-defender-master-krasnyj-101299047-1-Container.jpg',
+    rating: 5,
+    link: 'https://kaspi.kz/shop/p/igrovoe-defender-master-chernyi-krasnyi-101299047/?c=750000000#!/item',
+  },
+
+
   // {
+  //   like: ,
+  //   categid: ,
   //   id:,
   //   name: '',
   //   price:,
@@ -248,7 +414,9 @@ export const products = [
   //   rating: ,
   //   link: '',
   // },
-  //
+
+
+
 ];
 
 /*
