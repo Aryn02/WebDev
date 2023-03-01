@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import {categories} from "../categoriess";
+
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class CategoriesComponent {
 
+  categories = categories;
 }

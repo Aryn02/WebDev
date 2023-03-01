@@ -1,1 +1,10 @@
-<p>categories works!</p>
+<h1>Категорий</h1>
+<div *ngFor="let category of categories">
+<!--        <a routerLink="/product-list"> {{category.name}}</a>-->
+        <a [routerLink]="['/categories', category.id]">{{category.name}}</a>
+        <br><br>
+</div>
+<!--<a routerLink="/product-list">компьтеры</a><br><br>-->
+<!--<a routerLink="/product-list">бытовая техника</a><br><br>-->
+<!--<a routerLink="/product-list">одежда</a><br><br>-->
+<!--<a routerLink="/product-list">автотовары</a><br><br>-->

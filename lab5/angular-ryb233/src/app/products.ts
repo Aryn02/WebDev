@@ -1,4 +1,5 @@
 export interface Product {
+  categid:number;
   id: number;
   name: string;
   price: number;
@@ -10,6 +11,8 @@ export interface Product {
 
 export const products = [
   {
+
+    categid: 1,
     id: 1,
     name: 'Кондиционер TCL Elite TAC-07CHSA/XA41',
     price: 89990,
@@ -31,6 +34,7 @@ export const products = [
   },
 
   {
+    categid: 2,
     id: 2,
     name: 'Кондиционер DAUSCHER DAC-09OA + монтажный комплект',
     price: 109160 ,
@@ -45,6 +49,7 @@ export const products = [
         '0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 3,
     name: 'Кондиционер Atlantic ASAFA-12HRN8-S',
     price: 180990,
@@ -62,6 +67,7 @@ export const products = [
         'm_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 4,
     name: 'Кондиционер ARG CSH-09OB белый + монтажный комплект',
     price:109990,
@@ -88,6 +94,7 @@ export const products = [
         '_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 5,
     name: 'Кондиционер ALMACOM ACH-09LC',
     price: 225000,
@@ -108,6 +115,7 @@ export const products = [
         'CjwKCAiAl9efBhAkEiwA4TorivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 6,
     name: 'Кондиционер Midea MSAG-12HRN1',
     price: 179990 ,
@@ -128,6 +136,7 @@ export const products = [
         'EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 7,
     name: 'Телевизор Samsung UE43T5300AUXCE 109',
     price: 198887,
@@ -154,6 +163,7 @@ export const products = [
         'lz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 8,
     name: 'Телевизор LG 43LM5772PLA ',
     price: 183658,
@@ -181,6 +191,7 @@ export const products = [
         '1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 9,
     name: 'Телевизор LG 50UQ76003LD ',
     price: 267788,
@@ -199,6 +210,7 @@ export const products = [
         'orivS1uoWlz3LTAMbej0OZWtmf52FxNaEExH_m_EC6CAchg74Fjbo5ZhoC21UQAvD_BwE#!/item',
   },
   {
+    categid: 2,
     id: 10,
     name: 'Телевизор DAUSCHER LD55AU7100',
     price: 239990,
