@@ -7,7 +7,9 @@
 <!--  <p>{{ product.description }}</p>-->
   <p *ngIf="product.description"><b>Описание</b>: {{ product.description }}</p>
   <p *ngIf="product.rating"><b>Рейтинг</b>: {{ product.rating }} / 5</p>
-  <button type="button" (click)="addToCart(product)">Buy</button>
+  <h4>likes: {{product.like}}</h4>
+  <button type="button" (click)="addToCart(product)">Buy</button><br><br>
+  <button type="button" (click)="like(product)">like</button>
   <div id="kaspi">
   <a [href]="product.link">Open product in Kaspi.kz</a>
   </div>

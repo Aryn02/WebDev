@@ -21,6 +21,9 @@ export class ProductDetailsComponent implements OnInit {
     this.cartService.addToCart(product);
     window.alert('Your product has been added to the cart!');
   }
+  like(product: Product){
+    product.like++;
+  }
 
   ngOnInit(): void {
     // throw new Error('Method not implemented.');
