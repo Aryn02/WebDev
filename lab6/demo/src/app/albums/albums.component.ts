@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Album} from "../models";
 import {ALBUMS} from "../fake-db";
+import {AlbumService} from "../album.service";
 
 @Component({
   selector: 'app-albums',
@@ -9,11 +10,19 @@ import {ALBUMS} from "../fake-db";
 })
 export class AlbumsComponent implements OnInit{
   albums:Album[];
-  constructor() {
+  loaded: boolean;
+  constructor(private albumService: AlbumService) {
     this.albums =[];
+    this.loaded = true;
   }
   ngOnInit() {
-    this.albums = ALBUMS;
+    // this.albums = ALBUMS;
+
+    this.loaded = false;
+    this.albumService.getAlbums().subscribe((albums) =>{
+      this.albums = albums;
+      this.loaded = true;
+    })
   }
 
 

@@ -9,6 +9,7 @@ import { AlbumsComponent } from './albums/albums.component';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

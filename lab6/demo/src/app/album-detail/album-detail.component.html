@@ -1,1 +1,15 @@
-<p>album-detail works!</p>
+<div *ngIf="loaded">
+  <h2> Album Detail #{{album.id}}</h2>
+  <h4>{{album.title}}</h4>
+
+  <fieldset>
+    <input placeholder="Set new title for this album"><br><br>
+    <button o>Save</button>
+  </fieldset>
+  <h4>
+    <a routerLink="/albums/{{album.id}}/photos">Photos</a>
+  </h4>
+  <button type="button" routerLink="/albums">Return back</button>
+</div>
+
+<h3 *ngIf="!loaded">Album item is loading ...</h3>
