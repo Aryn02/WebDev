@@ -18,6 +18,9 @@ export class AlbumDetailComponent implements OnInit{
     this.loaded = true;
   }
 
+  change(newname:string){
+    this.album.title = newname;
+  }
   ngOnInit(): void{
     this.route.paramMap.subscribe((params) =>{
       const id = Number(params.get('id'));
